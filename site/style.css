@@ -115,7 +115,7 @@ img {vertical-align: bottom;}
         margin: 0 auto;
     }
     .boxA-out {
-        border-bottom: 1px; solid #ddd
+        border-bottom: 1px solid #ddd;
         padding: 8px 0;
         margin-bottom: 15px;
     }
