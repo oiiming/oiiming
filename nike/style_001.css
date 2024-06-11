@@ -1,5 +1,13 @@
 /* 언어설정 */
 @charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Play:wght@400;700&display=swap');
+
+/* 
+구글폰트정보
+font-family: "Monoton", sans-serif;
+font-family: "Play", sans-serif;
+*/
+
 
 /* 전체설정 */
 * {
@@ -20,3 +28,34 @@ body {
 }
 
 /* 배경동영상 */
+.vid {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.9;
+}
+
+.vid video {
+    width: 100%;
+    min-width: 1600;
+}
+
+/* logo설정 */
+h1 {
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    z-index: 9999;
+}
+
+/* header 설정 */
+header {
+    position: fixed;
+    height: 100%;
+    width: 700px;
+    background: linear-gradient(-45deg, #e6fc55, #b9fb05);
+    transform: skewX(-40deg);
+    left: -420px;
+}

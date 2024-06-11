@@ -4,6 +4,38 @@
 /* 전체설정 */
 * {margin: 0;
     padding: 0;}
-ul ol {
-    
+a {text-decoration: none;
+    color: #000;}
+ul, ol {list-style: none;}
+img {vertical-align: bottom;}
+
+/* header 설정 */
+header {
+    background-color: #f6f5ef;
+    border-bottom: 1px solid #000;
 }
+
+.header_inner {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+}
+
+.header_inner h1 {
+    width: 175px;
+    height: 62px;
+}
+
+.header_inner h1 a {}
+
+.header_inner h1 a img {
+    max-width: 75px;
+    width: 100%;
+}
+
+.header_inner nav {}
+
+.header_inner nav ul {}
+
+.header_inner nav li {}
+
